@@ -45,6 +45,26 @@ namespace LinkedList
 
             }
         }
+        public void DeleteFront()
+        {
+            Element NewRoot = new Element();
+            Element SecondNode = new Element();
+           
+            //Grab the second element and make it the root
+            SecondNode = Root.Next;
+            Root = SecondNode;
+            
+        }
+
+        public void DeleteBack()
+        {
+
+        }
+       
+        public void DeleteN(int value)
+        {
+
+        }
 
         public void PrintList()
         {
